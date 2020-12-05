@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Web;
+using ParcialFlaviaLarrain.Controllers;
 
-namespace ParcialFlaviaLarrain.Models
+namespace PracticaParcial.Models
 {
     public class DataContext : DbContext
     {
@@ -13,7 +14,6 @@ namespace ParcialFlaviaLarrain.Models
 
         }
 
-        public System.Data.Entity.DbSet<ParcialFlaviaLarrain.Models.Country> Countries { get; set; }
+        public System.Data.Entity.DbSet<ParcialFlaviaLarrain.Models.Numero> Numeroes { get; set; }
     }
-
 }

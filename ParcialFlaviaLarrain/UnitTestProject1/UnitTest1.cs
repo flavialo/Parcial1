@@ -11,9 +11,9 @@ namespace UnitTestProject1
         public void TestGet()
         {
             //arrange
-            CountriesController controller = new CountriesController();
+            NumeroesController controller = new NumeroesController();
             //act
-            var lista = controller.GetCountries();
+            var lista = controller.GetNumeroes();
             //assert
             Assert.IsNotNull(lista);
         }
